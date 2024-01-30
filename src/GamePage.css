@@ -1,0 +1,54 @@
+#game-board {
+    position: relative;
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+  }
+  
+  .dot {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+  }
+  
+  .apple {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+  }
+  
+  #game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #score-container {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+  }
+  
+
+#score, #high-score {
+  color: black;
+}
+
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .pineapple {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: yellow;
+  }
+  
